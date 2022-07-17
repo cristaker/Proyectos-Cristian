@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OpenBootcamp.iml" filepath="$PROJECT_DIR$/OpenBootcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenBootcampFunciones.iml" filepath="$PROJECT_DIR$/OpenBootcampFunciones.iml" />
     </modules>
   </component>
 </project>
