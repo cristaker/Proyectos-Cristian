@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.training.crud.model.crud">
+		<field name="crudId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="nombre" type="String">
+			<hint name="max-length">40</hint>
+		</field>
+		<field name="apellido" type="String">
+			<hint name="max-length">40</hint>
+		</field>
+		<field name="edad" type="String">
+			<hint name="max-length">2</hint>
+		</field>
+		<field name="documento" type="String">
+			<hint name="max-length">10</hint>
+		</field>
+		<field name="tipoDocumento" type="String" />
+		<field name="nacimiento" type="Date" />
+		<field name="direccion" type="String">
+			<hint name="max-length">30</hint>
+		</field>
+		<field name="ciudad" type="String" />
+		<field name="telefonoFijo" type="String">
+			<hint name="max-length">10</hint>
+		</field>
+		<field name="telefonoCelular" type="String">
+			<hint name="max-length">9</hint>
+		</field>
+	</model>
+</model-hints>

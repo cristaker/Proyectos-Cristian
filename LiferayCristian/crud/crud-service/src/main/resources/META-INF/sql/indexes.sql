@@ -1,0 +1,1 @@
+create index IX_FE46553F on ActualizacionDeDatos_crud (nombre[$COLUMN_LENGTH:40$], apellido[$COLUMN_LENGTH:40$]);

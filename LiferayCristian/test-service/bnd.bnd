@@ -1,0 +1,7 @@
+Bundle-Name: test service
+Bundle-SymbolicName: test-service
+Bundle-Version: 1.0.0
+Include-Resource:\
+@commons-httpclient-3.1.jar,\
+@commons-codec-1.15.jar,\
+@commons-io-2.5.jar
