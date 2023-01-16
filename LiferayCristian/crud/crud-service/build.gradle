@@ -14,7 +14,7 @@ buildService {
 	apiDir = "../crud-api/src/main/java"
 }
 
-group = "com.liferay.training.crud"
+group = "com.liferay.crud"
 
 tasks.withType(JavaCompile) {
 

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.cardiff">
+	<namespace>Cardiff</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="cardiff" remote-service="false" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="cardiffId" primary="true" type="long"></column>
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long"></column>
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long"></column>
+		<column name="userId" type="long"></column>
+		<column name="userName" type="String"></column>
+		<column name="createDate" type="Date"></column>
+		<column name="modifiedDate" type="Date"></column>
+		
+		<!-- Other Fields -->	
+		
+        <column name="defaultLocale" type="String"></column>
+        <column name="taskExecutorClassName" type="String"></column>
+        <column name="name" type="String"></column>
+        <column name="backgroundTaskId" type="long"></column>
+        <column name="permissionChecker" type="String"></column>
+        <column name="siteDefaultLocale" type="String"></column>
+        <column name="status" type="long"></column>
+        <column name="themeDisplayLocale" type="String"></column>
+        
+         <!-- Order -->
+	
+		<order by="asc">
+			<order-column name="name"></order-column>
+		</order>
+	
+		<!-- finders -->
+	
+		<finder return-type="Collection" name="name">
+			<finder-column name="name"></finder-column>
+		</finder>
+	</entity>
+</service-builder>

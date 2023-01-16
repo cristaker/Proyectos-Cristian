@@ -1,0 +1,4 @@
+Bundle-Name: bco-web
+Bundle-SymbolicName: com.liferay.bco.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.bco.web.constants

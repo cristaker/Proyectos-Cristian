@@ -1,0 +1,4 @@
+Bundle-Name: bco api
+Bundle-SymbolicName: bco-api
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.bco.api.api

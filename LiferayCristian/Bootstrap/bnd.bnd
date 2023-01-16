@@ -1,0 +1,4 @@
+Bundle-Name: Bootstrap
+Bundle-SymbolicName: com.bootstrap
+Bundle-Version: 1.0.0
+Export-Package: com.bootstrap.constants

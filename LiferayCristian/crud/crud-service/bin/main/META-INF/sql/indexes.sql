@@ -1,1 +1,1 @@
-create index IX_FE46553F on ActualizacionDeDatos_crud (nombre[$COLUMN_LENGTH:40$], apellido[$COLUMN_LENGTH:40$]);
+create index IX_7D7EAA75 on ActualizacionDeDatos_crud (nombre[$COLUMN_LENGTH:40$], apellido[$COLUMN_LENGTH:40$], edad[$COLUMN_LENGTH:2$]);

@@ -1,9 +1,9 @@
-<%@page import="com.liferay.training.crud.model.crud"%>
+<%@page import="com.liferay.crud.model.crud"%>
 <%@page contentType="text/html; charset=UTF-8" %>
 
 <%@ include file="/init.jsp" %>
 
-<jsp:useBean id="crud" type="com.liferay.training.crud.model.crud" scope="request"/>
+<jsp:useBean id="crud" type="com.liferay.crud.model.crud" scope="request"/>
 
 <portlet:actionURL name="/editCrud" var="editCrudURL" />
 

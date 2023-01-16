@@ -1,0 +1,10 @@
+Bundle-Name: Cardiff-Service-Builder-api
+Bundle-SymbolicName: com.cardiff.servicebuilder.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.cardiff.servicebuilder.exception,\
+	com.cardiff.servicebuilder.model,\
+	com.cardiff.servicebuilder.service,\
+	com.cardiff.servicebuilder.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Cardiff-Service-Builder-service/service.xml

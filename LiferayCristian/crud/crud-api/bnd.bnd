@@ -1,10 +1,10 @@
 Bundle-Name: crud-api
-Bundle-SymbolicName: com.liferay.training.crud.api
+Bundle-SymbolicName: com.liferay.crud.api
 Bundle-Version: 1.0.0
 Export-Package:\
-	com.liferay.training.crud.exception,\
-	com.liferay.training.crud.model,\
-	com.liferay.training.crud.service,\
-	com.liferay.training.crud.service.persistence
+	com.liferay.crud.exception,\
+	com.liferay.crud.model,\
+	com.liferay.crud.service,\
+	com.liferay.crud.service.persistence
 -check: EXPORTS
 -includeresource: META-INF/service.xml=../crud-service/service.xml

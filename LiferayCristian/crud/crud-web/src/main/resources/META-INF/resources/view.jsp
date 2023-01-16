@@ -52,7 +52,7 @@
     <aui:button name="addCrudButton" type="submit" value="CREAR"/>
 </aui:form>
 
-<jsp:useBean id="crud" type="java.util.List<com.liferay.training.crud.model.crud>" scope="request"/>
+<jsp:useBean id="crud" type="java.util.List<com.liferay.crud.model.crud>" scope="request"/>
 
 <liferay-ui:search-container emptyResultsMessage="No has creado ningun registro">
 	<liferay-ui:search-container-results results="${crud}"/>
@@ -73,5 +73,3 @@
 	
 	<liferay-ui:search-iterator />
 </liferay-ui:search-container>
-		
-

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <model-hints>
-	<model name="com.liferay.training.crud.model.crud">
+	<model name="com.liferay.crud.model.crud">
 		<field name="crudId" type="long" />
 		<field name="groupId" type="long" />
 		<field name="companyId" type="long" />

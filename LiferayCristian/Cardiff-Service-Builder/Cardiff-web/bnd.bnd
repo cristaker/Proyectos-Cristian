@@ -1,0 +1,4 @@
+Bundle-Name: Cardiff-web
+Bundle-SymbolicName: com.cardiff.portlet.web
+Bundle-Version: 1.0.0
+Export-Package: com.cardiff.portlet.web.constants
