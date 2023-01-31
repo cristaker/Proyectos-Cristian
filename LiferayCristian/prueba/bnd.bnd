@@ -1,0 +1,4 @@
+Bundle-Name: prueba
+Bundle-SymbolicName: com.vasslatam.prueba
+Bundle-Version: 1.0.0
+Export-Package: com.vasslatam.prueba.constants
