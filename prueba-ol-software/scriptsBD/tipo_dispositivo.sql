@@ -1,0 +1,1 @@
+SELECT * FROM prueba_ol.tipo_dispositivo;

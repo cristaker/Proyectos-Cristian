@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "column1": "valor1",
+            "column2": "valor2",
+            "column3": "valor3"
+        },
+        {
+            "column1": "valor4",
+            "column2": "valor5",
+            "column3": "valor6"
+        }
+    ],
+    "fileName": "archivo_csv"
+}

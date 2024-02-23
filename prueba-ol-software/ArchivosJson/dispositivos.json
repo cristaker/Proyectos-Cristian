@@ -1,0 +1,23 @@
+{
+    "nombre": "lenovo",
+    "estado": "ACTIVO",
+    "tipo": {
+        "id": "1"
+    },
+    "fabricante": {
+        "id": "1"
+    },
+    "modelo": {
+        "id": "6",
+        "nombre":"lenovo",
+        "fabricante": {
+            "id":"1"
+        }
+    },
+    "numeroSerie": "aks12584",
+    "numeroInventario": "10",
+    "comentarios": "Sin fallas",
+    "usuarioAsignado": {
+        "id": "5"
+    }
+}

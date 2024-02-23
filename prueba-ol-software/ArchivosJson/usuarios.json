@@ -1,0 +1,14 @@
+{
+    "identificador": "portatil",
+    "tipoIdentificacion": "1234567",
+    "primerNombre": "pedro",
+    "segundoNombre": "alberto",
+    "primerApellido": "torres",
+    "segundoApellido": "mendoza",
+    "correoElectronico": "pmendoza3@gmail.com",
+    "telefono": "333555443",
+    "usuario": "pmendoza3",
+    "contrasena": "1234",
+    "rol": "admin",
+    "grupo": "tecnico"
+}
