@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "a91aef73-2302-4e82-bf5f-7b2344c57ada",
+		"name": "prueba-gtc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25724386"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8054/api/estudiantes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Christian sanchez\",\r\n  \"correo\": \"cristaker1927@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8054/api/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8054",
+					"path": [
+						"api",
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8054/api/estudiantes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8054/api/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8054",
+					"path": [
+						"api",
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8054/api/estudiantes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Ana Gómez\",\r\n  \"correo\": \"ana.actualizada@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8054/api/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8054",
+					"path": [
+						"api",
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8054/api/estudiantes/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8054/api/estudiantes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8054",
+					"path": [
+						"api",
+						"estudiantes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
